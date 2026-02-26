@@ -1,0 +1,56 @@
+services:
+  relational:
+    image: postgres:18.2
+    restart: on-failure
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: launchpad
+      POSTGRES_PASSWORD: dontdothis
+      POSTGRES_DB: bookstore
+    volumes:
+      - ./postgres/data:/var/lib/postgresql/18/docker
+      - ./postgres/sql:/docker-entrypoint-initdb.d
+  document:
+    image: couchdb:3.5.1
+    restart: on-failure
+    ports:
+      - 5984:5984
+    environment:
+      COUCHDB_USER: launchpad
+      COUCHDB_PASSWORD: dontdothis
+    volumes:
+      - ./couchdb/data:/opt/couchdb/data
+  kvstore:
+    image: memcached:1.6.40
+    restart: on-failure
+    ports:
+      - 11211:11211
+    command:
+      - --conn-limit=1024
+      - --memory-limit=64
+      - --threads=1
+  fulltext:
+    image: typesense/typesense:30.1
+    restart: on-failure
+    ports:
+      - 8108:8108
+    volumes:
+      - ./typesense/data:/data
+    command:
+      - --data-dir=/data
+      - --api-key=dontdothis
+      - --enable-cors
+  seed:
+    build:
+      context: .
+      dockerfile: Dockerfile.seed
+    depends_on:
+      - document
+      - kvstore
+      - fulltext
+    environment:
+      COUCH_HOST: document
+      MC_HOST: kvstore
+      TS_HOST: fulltext
+    command: ["bash", "/scripts/seed-all.sh"]

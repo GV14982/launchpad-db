@@ -1,0 +1,4059 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "email": "alice@example.com",
+      "name": "Alice Johnson",
+      "joined_at": "2023-01-15"
+    },
+    {
+      "id": 2,
+      "email": "bob@example.com",
+      "name": "Bob Smith",
+      "joined_at": "2023-02-20"
+    },
+    {
+      "id": 3,
+      "email": "carol@example.com",
+      "name": "Carol Williams",
+      "joined_at": "2023-03-05"
+    },
+    {
+      "id": 4,
+      "email": "dan@example.com",
+      "name": "Dan Chen",
+      "joined_at": "2023-03-18"
+    },
+    {
+      "id": 5,
+      "email": "elena@example.com",
+      "name": "Elena Rodriguez",
+      "joined_at": "2023-04-02"
+    },
+    {
+      "id": 6,
+      "email": "frank@example.com",
+      "name": "Frank Okafor",
+      "joined_at": "2023-05-10"
+    },
+    {
+      "id": 7,
+      "email": "grace@example.com",
+      "name": "Grace Kim",
+      "joined_at": "2023-05-22"
+    },
+    {
+      "id": 8,
+      "email": "hassan@example.com",
+      "name": "Hassan Ali",
+      "joined_at": "2023-06-14"
+    },
+    {
+      "id": 9,
+      "email": "iris@example.com",
+      "name": "Iris Novak",
+      "joined_at": "2023-07-01"
+    },
+    {
+      "id": 10,
+      "email": "jamal@example.com",
+      "name": "Jamal Washington",
+      "joined_at": "2023-07-30"
+    },
+    {
+      "id": 11,
+      "email": "keiko@example.com",
+      "name": "Keiko Tanaka",
+      "joined_at": "2023-08-12"
+    },
+    {
+      "id": 12,
+      "email": "liam@example.com",
+      "name": "Liam O'Brien",
+      "joined_at": "2023-09-01"
+    },
+    {
+      "id": 13,
+      "email": "maya@example.com",
+      "name": "Maya Patel",
+      "joined_at": "2023-09-25"
+    },
+    {
+      "id": 14,
+      "email": "noah@example.com",
+      "name": "Noah Fischer",
+      "joined_at": "2023-10-10"
+    },
+    {
+      "id": 15,
+      "email": "olivia@example.com",
+      "name": "Olivia Santos",
+      "joined_at": "2023-11-05"
+    },
+    {
+      "id": 16,
+      "email": "priya@example.com",
+      "name": "Priya Sharma",
+      "joined_at": "2023-11-20"
+    },
+    {
+      "id": 17,
+      "email": "quinn@example.com",
+      "name": "Quinn Murphy",
+      "joined_at": "2023-12-03"
+    },
+    {
+      "id": 18,
+      "email": "rashid@example.com",
+      "name": "Rashid Kouri",
+      "joined_at": "2024-01-08"
+    },
+    {
+      "id": 19,
+      "email": "sofia@example.com",
+      "name": "Sofia Andersson",
+      "joined_at": "2024-01-22"
+    },
+    {
+      "id": 20,
+      "email": "tyler@example.com",
+      "name": "Tyler Brooks",
+      "joined_at": "2024-02-14"
+    },
+    {
+      "id": 21,
+      "email": "uma@example.com",
+      "name": "Uma Okonkwo",
+      "joined_at": "2024-03-01"
+    },
+    {
+      "id": 22,
+      "email": "viktor@example.com",
+      "name": "Viktor Petrov",
+      "joined_at": "2024-03-15"
+    },
+    {
+      "id": 23,
+      "email": "wendy@example.com",
+      "name": "Wendy Zhao",
+      "joined_at": "2024-04-02"
+    },
+    {
+      "id": 24,
+      "email": "xavier@example.com",
+      "name": "Xavier Dubois",
+      "joined_at": "2024-04-18"
+    },
+    {
+      "id": 25,
+      "email": "yuki@example.com",
+      "name": "Yuki Mori",
+      "joined_at": "2024-05-01"
+    }
+  ],
+  "reviews": [
+    {
+      "book_id": 1,
+      "customer_id": 1,
+      "rating": 5,
+      "body": "A masterpiece of science fiction. The world-building is unmatched."
+    },
+    {
+      "book_id": 1,
+      "customer_id": 2,
+      "rating": 4,
+      "body": "Dense but rewarding. The political intrigue kept me hooked."
+    },
+    {
+      "book_id": 1,
+      "customer_id": 5,
+      "rating": 5,
+      "body": "Changed the way I think about ecology and politics in fiction."
+    },
+    {
+      "book_id": 1,
+      "customer_id": 11,
+      "rating": 4,
+      "body": "Epic in scope. Herbert built something truly unique."
+    },
+    {
+      "book_id": 1,
+      "customer_id": 16,
+      "rating": 3,
+      "body": "Ambitious but overwritten. The pacing drags in the middle third."
+    },
+    {
+      "book_id": 1,
+      "customer_id": 22,
+      "rating": 2,
+      "body": "Too many made-up words and political monologues. I couldn't finish it."
+    },
+    {
+      "book_id": 2,
+      "customer_id": 1,
+      "rating": 5,
+      "body": "The definitive fantasy epic. Every page is magic."
+    },
+    {
+      "book_id": 2,
+      "customer_id": 3,
+      "rating": 5,
+      "body": "Tolkien created a world that feels more real than our own."
+    },
+    {
+      "book_id": 2,
+      "customer_id": 7,
+      "rating": 5,
+      "body": "A timeless journey that only gets better with every reread."
+    },
+    {
+      "book_id": 2,
+      "customer_id": 10,
+      "rating": 4,
+      "body": "Beautiful prose, though the pacing can be slow at times."
+    },
+    {
+      "book_id": 2,
+      "customer_id": 18,
+      "rating": 2,
+      "body": "Endless walking and singing. Where is the plot?"
+    },
+    {
+      "book_id": 2,
+      "customer_id": 20,
+      "rating": 3,
+      "body": "Respect the craft but it reads like a history textbook at times."
+    },
+    {
+      "book_id": 3,
+      "customer_id": 2,
+      "rating": 4,
+      "body": "Classic whodunit. Christie keeps you guessing until the very end."
+    },
+    {
+      "book_id": 3,
+      "customer_id": 6,
+      "rating": 5,
+      "body": "The reveal is one of the most satisfying in all of mystery fiction."
+    },
+    {
+      "book_id": 3,
+      "customer_id": 9,
+      "rating": 4,
+      "body": "A perfect locked-room mystery with incredible misdirection."
+    },
+    {
+      "book_id": 3,
+      "customer_id": 17,
+      "rating": 3,
+      "body": "Clever ending, but the characters all feel like cardboard cutouts."
+    },
+    {
+      "book_id": 3,
+      "customer_id": 23,
+      "rating": 3,
+      "body": "The solution is brilliant but I guessed it halfway through."
+    },
+    {
+      "book_id": 4,
+      "customer_id": 3,
+      "rating": 4,
+      "body": "Asimov's vision of the future is both grand and intimate."
+    },
+    {
+      "book_id": 4,
+      "customer_id": 8,
+      "rating": 5,
+      "body": "Psychohistory is one of the most brilliant sci-fi concepts ever."
+    },
+    {
+      "book_id": 4,
+      "customer_id": 14,
+      "rating": 4,
+      "body": "A bit dry in places, but the ideas are monumental."
+    },
+    {
+      "book_id": 4,
+      "customer_id": 19,
+      "rating": 2,
+      "body": "All ideas, no characters. Every person talks the same way."
+    },
+    {
+      "book_id": 4,
+      "customer_id": 24,
+      "rating": 3,
+      "body": "Interesting premise but the writing style feels dated."
+    },
+    {
+      "book_id": 5,
+      "customer_id": 5,
+      "rating": 5,
+      "body": "Le Guin challenges everything you think you know about gender."
+    },
+    {
+      "book_id": 5,
+      "customer_id": 12,
+      "rating": 5,
+      "body": "Quietly revolutionary. The prose is spare and beautiful."
+    },
+    {
+      "book_id": 5,
+      "customer_id": 20,
+      "rating": 3,
+      "body": "Important themes but the plot moves at a glacial pace."
+    },
+    {
+      "book_id": 6,
+      "customer_id": 1,
+      "rating": 5,
+      "body": "Hilarious and profound. Gaiman and Pratchett are a perfect duo."
+    },
+    {
+      "book_id": 6,
+      "customer_id": 2,
+      "rating": 5,
+      "body": "I've never laughed this hard at an apocalypse."
+    },
+    {
+      "book_id": 6,
+      "customer_id": 4,
+      "rating": 4,
+      "body": "Witty, warm, and surprisingly touching. A comfort read."
+    },
+    {
+      "book_id": 6,
+      "customer_id": 13,
+      "rating": 5,
+      "body": "The best comedy fantasy ever written. Fight me."
+    },
+    {
+      "book_id": 6,
+      "customer_id": 21,
+      "rating": 3,
+      "body": "Funny in places, but the humor got repetitive for me."
+    },
+    {
+      "book_id": 6,
+      "customer_id": 25,
+      "rating": 2,
+      "body": "Tried really hard to like this. The randomness isn't my thing."
+    },
+    {
+      "book_id": 7,
+      "customer_id": 3,
+      "rating": 4,
+      "body": "A sprawling American mythology. Gaiman at his best."
+    },
+    {
+      "book_id": 7,
+      "customer_id": 10,
+      "rating": 4,
+      "body": "Atmospheric and strange. It lingers in your mind."
+    },
+    {
+      "book_id": 7,
+      "customer_id": 16,
+      "rating": 2,
+      "body": "Meandering and bloated. I kept waiting for something to happen."
+    },
+    {
+      "book_id": 7,
+      "customer_id": 24,
+      "rating": 3,
+      "body": "Cool concept, but the middle section really loses momentum."
+    },
+    {
+      "book_id": 8,
+      "customer_id": 1,
+      "rating": 4,
+      "body": "The Discworld awaits. Pratchett's humor is one of a kind."
+    },
+    {
+      "book_id": 8,
+      "customer_id": 7,
+      "rating": 5,
+      "body": "A hilarious send-up of fantasy tropes. Pure Pratchett."
+    },
+    {
+      "book_id": 8,
+      "customer_id": 19,
+      "rating": 3,
+      "body": "Fun, but Pratchett hadn't found his voice yet. Later books are better."
+    },
+    {
+      "book_id": 8,
+      "customer_id": 22,
+      "rating": 2,
+      "body": "Just a series of jokes strung together. No real story."
+    },
+    {
+      "book_id": 9,
+      "customer_id": 4,
+      "rating": 5,
+      "body": "Terrifyingly relevant. Orwell saw the future."
+    },
+    {
+      "book_id": 9,
+      "customer_id": 8,
+      "rating": 5,
+      "body": "The most important dystopian novel ever written."
+    },
+    {
+      "book_id": 9,
+      "customer_id": 15,
+      "rating": 4,
+      "body": "Bleak but essential reading. The ending haunts you."
+    },
+    {
+      "book_id": 9,
+      "customer_id": 17,
+      "rating": 3,
+      "body": "Important message, but the prose is deliberately joyless."
+    },
+    {
+      "book_id": 9,
+      "customer_id": 23,
+      "rating": 4,
+      "body": "Chilling. The appendix on Newspeak is underrated."
+    },
+    {
+      "book_id": 10,
+      "customer_id": 6,
+      "rating": 5,
+      "body": "A perfect allegory. Every line carries weight."
+    },
+    {
+      "book_id": 10,
+      "customer_id": 12,
+      "rating": 4,
+      "body": "Short but devastating. Should be required reading."
+    },
+    {
+      "book_id": 10,
+      "customer_id": 18,
+      "rating": 3,
+      "body": "Gets the point across but it's pretty heavy-handed."
+    },
+    {
+      "book_id": 11,
+      "customer_id": 5,
+      "rating": 5,
+      "body": "The original enemies-to-lovers. Austen is timeless."
+    },
+    {
+      "book_id": 11,
+      "customer_id": 9,
+      "rating": 5,
+      "body": "Witty, sharp, and romantic. Darcy forever."
+    },
+    {
+      "book_id": 11,
+      "customer_id": 13,
+      "rating": 4,
+      "body": "Austen's social commentary is razor-sharp beneath the romance."
+    },
+    {
+      "book_id": 11,
+      "customer_id": 20,
+      "rating": 2,
+      "body": "Rich people have polite conversations for 300 pages. Not for me."
+    },
+    {
+      "book_id": 11,
+      "customer_id": 24,
+      "rating": 3,
+      "body": "Well-crafted but the class obsession feels exhausting."
+    },
+    {
+      "book_id": 12,
+      "customer_id": 16,
+      "rating": 3,
+      "body": "Fine but not as sharp as Pride and Prejudice."
+    },
+    {
+      "book_id": 12,
+      "customer_id": 21,
+      "rating": 4,
+      "body": "Elinor's quiet strength makes this underrated Austen."
+    },
+    {
+      "book_id": 13,
+      "customer_id": 9,
+      "rating": 3,
+      "body": "Charming but the matchmaking premise wears thin."
+    },
+    {
+      "book_id": 13,
+      "customer_id": 19,
+      "rating": 4,
+      "body": "Emma is infuriating and lovable in equal measure."
+    },
+    {
+      "book_id": 14,
+      "customer_id": 4,
+      "rating": 5,
+      "body": "Mind-bending questions about what makes us human."
+    },
+    {
+      "book_id": 14,
+      "customer_id": 11,
+      "rating": 4,
+      "body": "PKD at his philosophical best. Better than the movie."
+    },
+    {
+      "book_id": 14,
+      "customer_id": 18,
+      "rating": 3,
+      "body": "The ideas are great but the writing feels rushed."
+    },
+    {
+      "book_id": 14,
+      "customer_id": 25,
+      "rating": 3,
+      "body": "Interesting thought experiment. Execution is uneven."
+    },
+    {
+      "book_id": 15,
+      "customer_id": 22,
+      "rating": 2,
+      "body": "Paranoid and confusing. I could never follow what was real."
+    },
+    {
+      "book_id": 15,
+      "customer_id": 17,
+      "rating": 4,
+      "body": "A drug-fueled nightmare that somehow makes perfect sense."
+    },
+    {
+      "book_id": 16,
+      "customer_id": 10,
+      "rating": 3,
+      "body": "Interesting alternate history premise but the pace is very slow."
+    },
+    {
+      "book_id": 16,
+      "customer_id": 23,
+      "rating": 4,
+      "body": "PKD's best world-building. The I Ching framing is fascinating."
+    },
+    {
+      "book_id": 17,
+      "customer_id": 2,
+      "rating": 5,
+      "body": "The most terrifying haunted house story ever written."
+    },
+    {
+      "book_id": 17,
+      "customer_id": 6,
+      "rating": 4,
+      "body": "King builds dread like no one else. Claustrophobic brilliance."
+    },
+    {
+      "book_id": 17,
+      "customer_id": 15,
+      "rating": 5,
+      "body": "All work and no play... This book genuinely scared me."
+    },
+    {
+      "book_id": 17,
+      "customer_id": 21,
+      "rating": 3,
+      "body": "Effective horror, but King over-explains the supernatural elements."
+    },
+    {
+      "book_id": 18,
+      "customer_id": 8,
+      "rating": 4,
+      "body": "Massive and sprawling, but the Losers Club keeps you invested."
+    },
+    {
+      "book_id": 18,
+      "customer_id": 14,
+      "rating": 5,
+      "body": "King's magnum opus. Friendship vs. cosmic evil at its best."
+    },
+    {
+      "book_id": 18,
+      "customer_id": 20,
+      "rating": 2,
+      "body": "Way too long. Should have been half the length. Needed an editor."
+    },
+    {
+      "book_id": 18,
+      "customer_id": 25,
+      "rating": 3,
+      "body": "Great premise, but it drags in the adult timeline sections."
+    },
+    {
+      "book_id": 19,
+      "customer_id": 10,
+      "rating": 4,
+      "body": "Epic post-apocalyptic good vs. evil. Peak King."
+    },
+    {
+      "book_id": 19,
+      "customer_id": 16,
+      "rating": 3,
+      "body": "The first half is incredible. The second half loses its way."
+    },
+    {
+      "book_id": 19,
+      "customer_id": 22,
+      "rating": 1,
+      "body": "1400 pages for a story that goes nowhere satisfying. Gave up."
+    },
+    {
+      "book_id": 20,
+      "customer_id": 17,
+      "rating": 5,
+      "body": "The most psychologically intense King novel. Annie Wilkes is iconic."
+    },
+    {
+      "book_id": 20,
+      "customer_id": 24,
+      "rating": 4,
+      "body": "Lean and mean. King at his most focused."
+    },
+    {
+      "book_id": 21,
+      "customer_id": 3,
+      "rating": 5,
+      "body": "Visionary. Clarke imagined the future better than anyone."
+    },
+    {
+      "book_id": 21,
+      "customer_id": 14,
+      "rating": 5,
+      "body": "The monolith scenes are among the best in all of sci-fi."
+    },
+    {
+      "book_id": 21,
+      "customer_id": 19,
+      "rating": 3,
+      "body": "More of a philosophical treatise than a novel. Cold and distant."
+    },
+    {
+      "book_id": 22,
+      "customer_id": 8,
+      "rating": 4,
+      "body": "Hard sci-fi exploration done right. Rama is unforgettable."
+    },
+    {
+      "book_id": 22,
+      "customer_id": 25,
+      "rating": 3,
+      "body": "Fascinating setting but the characters are forgettable."
+    },
+    {
+      "book_id": 23,
+      "customer_id": 5,
+      "rating": 4,
+      "body": "Clarke's most haunting ending. The Overlords are terrifying."
+    },
+    {
+      "book_id": 23,
+      "customer_id": 18,
+      "rating": 3,
+      "body": "Started strong but the final act is too abstract for me."
+    },
+    {
+      "book_id": 24,
+      "customer_id": 5,
+      "rating": 5,
+      "body": "A chilling and necessary dystopia. Atwood is a prophet."
+    },
+    {
+      "book_id": 24,
+      "customer_id": 9,
+      "rating": 5,
+      "body": "Terrifying because it all feels possible. Essential reading."
+    },
+    {
+      "book_id": 24,
+      "customer_id": 13,
+      "rating": 4,
+      "body": "Powerful and disturbing. The TV show doesn't capture half of it."
+    },
+    {
+      "book_id": 24,
+      "customer_id": 20,
+      "rating": 3,
+      "body": "Well-written but relentlessly bleak. Had to take breaks."
+    },
+    {
+      "book_id": 24,
+      "customer_id": 23,
+      "rating": 4,
+      "body": "The restraint of the prose makes it even more devastating."
+    },
+    {
+      "book_id": 25,
+      "customer_id": 16,
+      "rating": 4,
+      "body": "Bleak, inventive, and very Atwood. The biotech is disturbingly plausible."
+    },
+    {
+      "book_id": 25,
+      "customer_id": 21,
+      "rating": 3,
+      "body": "Clever but hard to care about any of the characters."
+    },
+    {
+      "book_id": 26,
+      "customer_id": 4,
+      "rating": 5,
+      "body": "Vonnegut's masterpiece. So it goes."
+    },
+    {
+      "book_id": 26,
+      "customer_id": 12,
+      "rating": 5,
+      "body": "Anti-war fiction at its most inventive and heartbreaking."
+    },
+    {
+      "book_id": 26,
+      "customer_id": 17,
+      "rating": 3,
+      "body": "I get why people love it, but the structure felt gimmicky to me."
+    },
+    {
+      "book_id": 26,
+      "customer_id": 22,
+      "rating": 2,
+      "body": "Disjointed and pretentious. The time-travel adds nothing."
+    },
+    {
+      "book_id": 27,
+      "customer_id": 18,
+      "rating": 4,
+      "body": "Ice-nine is the scariest fictional invention I've encountered."
+    },
+    {
+      "book_id": 27,
+      "customer_id": 24,
+      "rating": 3,
+      "body": "Satirical but a bit scattered compared to Slaughterhouse-Five."
+    },
+    {
+      "book_id": 28,
+      "customer_id": 8,
+      "rating": 5,
+      "body": "A love letter to books. Bradbury writes fire beautifully."
+    },
+    {
+      "book_id": 28,
+      "customer_id": 15,
+      "rating": 4,
+      "body": "More relevant now than when it was written."
+    },
+    {
+      "book_id": 28,
+      "customer_id": 19,
+      "rating": 3,
+      "body": "Great concept but Bradbury's prose is too flowery for the subject."
+    },
+    {
+      "book_id": 28,
+      "customer_id": 25,
+      "rating": 4,
+      "body": "Short, sharp, and urgent. The fire imagery is stunning."
+    },
+    {
+      "book_id": 29,
+      "customer_id": 6,
+      "rating": 3,
+      "body": "Uneven. Some stories are brilliant, others feel like filler."
+    },
+    {
+      "book_id": 29,
+      "customer_id": 21,
+      "rating": 4,
+      "body": "Bradbury's Mars is more about loneliness than science. Beautiful."
+    },
+    {
+      "book_id": 30,
+      "customer_id": 17,
+      "rating": 4,
+      "body": "Carnival horror at its best. Mr. Dark is genuinely unsettling."
+    },
+    {
+      "book_id": 30,
+      "customer_id": 23,
+      "rating": 3,
+      "body": "Atmospheric but the prose gets in its own way."
+    },
+    {
+      "book_id": 31,
+      "customer_id": 7,
+      "rating": 5,
+      "body": "Dostoevsky reaches into your soul and doesn't let go."
+    },
+    {
+      "book_id": 31,
+      "customer_id": 11,
+      "rating": 4,
+      "body": "The psychological depth is staggering. Heavy but rewarding."
+    },
+    {
+      "book_id": 31,
+      "customer_id": 16,
+      "rating": 3,
+      "body": "Brilliant but punishing to read. Not exactly a page-turner."
+    },
+    {
+      "book_id": 31,
+      "customer_id": 22,
+      "rating": 2,
+      "body": "Pretentious and depressing. Life is too short for this."
+    },
+    {
+      "book_id": 32,
+      "customer_id": 4,
+      "rating": 5,
+      "body": "The Grand Inquisitor chapter alone is worth the price of admission."
+    },
+    {
+      "book_id": 32,
+      "customer_id": 18,
+      "rating": 4,
+      "body": "Massive and demanding but deeply rewarding if you stick with it."
+    },
+    {
+      "book_id": 32,
+      "customer_id": 25,
+      "rating": 2,
+      "body": "Could not keep the characters straight. Gave up at page 200."
+    },
+    {
+      "book_id": 33,
+      "customer_id": 12,
+      "rating": 4,
+      "body": "The original unreliable narrator rant. Surprisingly modern."
+    },
+    {
+      "book_id": 33,
+      "customer_id": 20,
+      "rating": 3,
+      "body": "I get it, he's miserable. Did it need to be this repetitive?"
+    },
+    {
+      "book_id": 34,
+      "customer_id": 1,
+      "rating": 5,
+      "body": "Magical realism at its absolute peak. A generational saga."
+    },
+    {
+      "book_id": 34,
+      "customer_id": 6,
+      "rating": 5,
+      "body": "Marquez makes the impossible feel inevitable."
+    },
+    {
+      "book_id": 34,
+      "customer_id": 9,
+      "rating": 4,
+      "body": "Keeping track of the names is a challenge, but worth it."
+    },
+    {
+      "book_id": 34,
+      "customer_id": 19,
+      "rating": 2,
+      "body": "Everyone has the same name. I was lost by page 50."
+    },
+    {
+      "book_id": 34,
+      "customer_id": 24,
+      "rating": 3,
+      "body": "Beautiful sentences but the circular structure is frustrating."
+    },
+    {
+      "book_id": 35,
+      "customer_id": 9,
+      "rating": 4,
+      "body": "A love story spanning decades. Patient and beautiful."
+    },
+    {
+      "book_id": 35,
+      "customer_id": 21,
+      "rating": 3,
+      "body": "Romantic but Florentino is honestly kind of creepy."
+    },
+    {
+      "book_id": 35,
+      "customer_id": 16,
+      "rating": 2,
+      "body": "The obsession isn't romantic, it's stalking. Couldn't root for him."
+    },
+    {
+      "book_id": 36,
+      "customer_id": 10,
+      "rating": 5,
+      "body": "Morrison's prose is devastating. This book changes you."
+    },
+    {
+      "book_id": 36,
+      "customer_id": 13,
+      "rating": 5,
+      "body": "The most powerful novel I've ever read about memory and trauma."
+    },
+    {
+      "book_id": 36,
+      "customer_id": 22,
+      "rating": 3,
+      "body": "Important and well-written but extremely difficult to get through."
+    },
+    {
+      "book_id": 37,
+      "customer_id": 21,
+      "rating": 4,
+      "body": "Morrison's prose sings. A journey through identity and heritage."
+    },
+    {
+      "book_id": 37,
+      "customer_id": 25,
+      "rating": 3,
+      "body": "Lyrical but I found the plot hard to follow at times."
+    },
+    {
+      "book_id": 38,
+      "customer_id": 11,
+      "rating": 4,
+      "body": "Murakami captures the ache of youth and loss perfectly."
+    },
+    {
+      "book_id": 38,
+      "customer_id": 15,
+      "rating": 5,
+      "body": "Quiet, melancholy, and beautiful. My favorite Murakami."
+    },
+    {
+      "book_id": 38,
+      "customer_id": 23,
+      "rating": 3,
+      "body": "Atmospheric but all the characters feel emotionally numb."
+    },
+    {
+      "book_id": 38,
+      "customer_id": 18,
+      "rating": 2,
+      "body": "Murakami's male protagonists are all the same passive sad guy."
+    },
+    {
+      "book_id": 39,
+      "customer_id": 7,
+      "rating": 4,
+      "body": "Surreal and dreamlike. Not everything makes sense, and that's the point."
+    },
+    {
+      "book_id": 39,
+      "customer_id": 20,
+      "rating": 3,
+      "body": "Interesting imagery but I had no idea what was going on half the time."
+    },
+    {
+      "book_id": 40,
+      "customer_id": 11,
+      "rating": 3,
+      "body": "Ambitious but at 1000+ pages, it needed tighter editing."
+    },
+    {
+      "book_id": 40,
+      "customer_id": 25,
+      "rating": 2,
+      "body": "The parallel worlds concept is wasted on a bloated love story."
+    },
+    {
+      "book_id": 41,
+      "customer_id": 5,
+      "rating": 5,
+      "body": "Butler makes time travel personal and political. Unforgettable."
+    },
+    {
+      "book_id": 41,
+      "customer_id": 21,
+      "rating": 5,
+      "body": "Visceral and harrowing. One of the most important sci-fi novels."
+    },
+    {
+      "book_id": 41,
+      "customer_id": 16,
+      "rating": 4,
+      "body": "Uncomfortable in all the right ways. Butler pulls no punches."
+    },
+    {
+      "book_id": 42,
+      "customer_id": 13,
+      "rating": 4,
+      "body": "Prescient dystopia. Butler saw our climate future decades ago."
+    },
+    {
+      "book_id": 42,
+      "customer_id": 23,
+      "rating": 3,
+      "body": "The world-building is strong but the diary format gets repetitive."
+    },
+    {
+      "book_id": 43,
+      "customer_id": 2,
+      "rating": 5,
+      "body": "Don't panic! The funniest sci-fi book ever written. Period."
+    },
+    {
+      "book_id": 43,
+      "customer_id": 4,
+      "rating": 5,
+      "body": "42. That's all you need to know. Read it."
+    },
+    {
+      "book_id": 43,
+      "customer_id": 12,
+      "rating": 4,
+      "body": "British humor in space. Douglas Adams was a genius."
+    },
+    {
+      "book_id": 43,
+      "customer_id": 17,
+      "rating": 3,
+      "body": "Amusing but the plot is basically random events strung together."
+    },
+    {
+      "book_id": 43,
+      "customer_id": 22,
+      "rating": 1,
+      "body": "Tried three times. Can't stand the humor. Deeply unfunny to me."
+    },
+    {
+      "book_id": 44,
+      "customer_id": 12,
+      "rating": 3,
+      "body": "Diminishing returns. The first book was much funnier."
+    },
+    {
+      "book_id": 44,
+      "customer_id": 24,
+      "rating": 4,
+      "body": "Milliways is one of the best set pieces in all of comedy sci-fi."
+    },
+    {
+      "book_id": 45,
+      "customer_id": 6,
+      "rating": 4,
+      "body": "The original. Shelley invented science fiction at 18 years old."
+    },
+    {
+      "book_id": 45,
+      "customer_id": 9,
+      "rating": 5,
+      "body": "Far more philosophical than most people expect. A gothic treasure."
+    },
+    {
+      "book_id": 45,
+      "customer_id": 20,
+      "rating": 3,
+      "body": "Historically important but the framing device is clunky."
+    },
+    {
+      "book_id": 45,
+      "customer_id": 25,
+      "rating": 3,
+      "body": "The monster is sympathetic, Victor is insufferable. Maybe that's the point."
+    },
+    {
+      "book_id": 46,
+      "customer_id": 17,
+      "rating": 4,
+      "body": "Lovecraft's best long-form work. The dread is palpable."
+    },
+    {
+      "book_id": 46,
+      "customer_id": 22,
+      "rating": 3,
+      "body": "Great atmosphere but Lovecraft's prose is exhaustingly purple."
+    },
+    {
+      "book_id": 46,
+      "customer_id": 8,
+      "rating": 2,
+      "body": "Can't separate the cosmic horror from the author's real-world bigotry."
+    },
+    {
+      "book_id": 47,
+      "customer_id": 6,
+      "rating": 3,
+      "body": "The mythos is iconic but the actual story is paper-thin."
+    },
+    {
+      "book_id": 47,
+      "customer_id": 23,
+      "rating": 4,
+      "body": "Short and effective. Ph'nglui mglw'nafh Cthulhu."
+    },
+    {
+      "book_id": 48,
+      "customer_id": 3,
+      "rating": 4,
+      "body": "Huxley's dystopia is the one we actually got. Soma for everyone."
+    },
+    {
+      "book_id": 48,
+      "customer_id": 8,
+      "rating": 5,
+      "body": "More relevant than 1984 in the age of distraction."
+    },
+    {
+      "book_id": 48,
+      "customer_id": 16,
+      "rating": 3,
+      "body": "Interesting ideas but the characters are deliberately one-dimensional."
+    },
+    {
+      "book_id": 48,
+      "customer_id": 24,
+      "rating": 2,
+      "body": "Feels like a thought experiment, not a novel. No emotional core."
+    },
+    {
+      "book_id": 49,
+      "customer_id": 10,
+      "rating": 5,
+      "body": "The most violent novel I've ever read, and somehow the most beautiful."
+    },
+    {
+      "book_id": 49,
+      "customer_id": 17,
+      "rating": 4,
+      "body": "McCarthy writes violence like poetry. The Judge is unforgettable."
+    },
+    {
+      "book_id": 49,
+      "customer_id": 22,
+      "rating": 1,
+      "body": "Gratuitous violence disguised as literature. Absolutely hated it."
+    },
+    {
+      "book_id": 49,
+      "customer_id": 19,
+      "rating": 3,
+      "body": "Beautifully written but I felt physically ill reading parts of it."
+    },
+    {
+      "book_id": 50,
+      "customer_id": 10,
+      "rating": 5,
+      "body": "Devastatingly spare and beautiful. McCarthy's finest work."
+    },
+    {
+      "book_id": 50,
+      "customer_id": 14,
+      "rating": 5,
+      "body": "I read it in one sitting and cried at the end."
+    },
+    {
+      "book_id": 50,
+      "customer_id": 18,
+      "rating": 4,
+      "body": "Bleak but the father-son bond carries you through the darkness."
+    },
+    {
+      "book_id": 50,
+      "customer_id": 25,
+      "rating": 3,
+      "body": "Relentlessly grim. Well-written but I felt drained afterward."
+    },
+    {
+      "book_id": 51,
+      "customer_id": 17,
+      "rating": 4,
+      "body": "Taut and terrifying. Chigurh is one of fiction's great villains."
+    },
+    {
+      "book_id": 51,
+      "customer_id": 24,
+      "rating": 5,
+      "body": "McCarthy's most accessible novel. The coin toss scene is perfection."
+    },
+    {
+      "book_id": 52,
+      "customer_id": 7,
+      "rating": 5,
+      "body": "Borges builds infinite worlds in five pages. Astonishing."
+    },
+    {
+      "book_id": 52,
+      "customer_id": 18,
+      "rating": 4,
+      "body": "Mind-bending. Every story is a puzzle box."
+    },
+    {
+      "book_id": 52,
+      "customer_id": 20,
+      "rating": 2,
+      "body": "Intellectual show-off writing. I felt stupid, not enlightened."
+    },
+    {
+      "book_id": 53,
+      "customer_id": 1,
+      "rating": 5,
+      "body": "A shattering novel about colonialism and cultural destruction."
+    },
+    {
+      "book_id": 53,
+      "customer_id": 6,
+      "rating": 4,
+      "body": "Achebe writes with clarity and power. Essential African literature."
+    },
+    {
+      "book_id": 53,
+      "customer_id": 21,
+      "rating": 5,
+      "body": "Should be required reading everywhere. Okonkwo is unforgettable."
+    },
+    {
+      "book_id": 53,
+      "customer_id": 25,
+      "rating": 3,
+      "body": "Important but the narrative distance kept me from connecting."
+    },
+    {
+      "book_id": 54,
+      "customer_id": 16,
+      "rating": 4,
+      "body": "Woolf's stream of consciousness is breathtaking when it clicks."
+    },
+    {
+      "book_id": 54,
+      "customer_id": 22,
+      "rating": 1,
+      "body": "Nothing happens. Literally nothing. A woman plans a party."
+    },
+    {
+      "book_id": 54,
+      "customer_id": 19,
+      "rating": 3,
+      "body": "Beautifully written but I kept losing the thread of who was thinking."
+    },
+    {
+      "book_id": 55,
+      "customer_id": 7,
+      "rating": 4,
+      "body": "Woolf captures the passage of time like no other writer."
+    },
+    {
+      "book_id": 55,
+      "customer_id": 23,
+      "rating": 3,
+      "body": "The Time Passes section is stunning. The rest is harder to love."
+    },
+    {
+      "book_id": 56,
+      "customer_id": 3,
+      "rating": 4,
+      "body": "Hemingway stripped to the bone. Simple but profound."
+    },
+    {
+      "book_id": 56,
+      "customer_id": 15,
+      "rating": 5,
+      "body": "Man vs. nature, man vs. self. A perfect novella."
+    },
+    {
+      "book_id": 56,
+      "customer_id": 20,
+      "rating": 3,
+      "body": "I respect the craft but honestly found it boring."
+    },
+    {
+      "book_id": 56,
+      "customer_id": 18,
+      "rating": 2,
+      "body": "Old man catches fish. Old man loses fish. That's it. That's the book."
+    },
+    {
+      "book_id": 57,
+      "customer_id": 14,
+      "rating": 4,
+      "body": "Hemingway's war writing is raw and honest."
+    },
+    {
+      "book_id": 57,
+      "customer_id": 24,
+      "rating": 3,
+      "body": "The love story feels forced compared to the war scenes."
+    },
+    {
+      "book_id": 58,
+      "customer_id": 6,
+      "rating": 4,
+      "body": "Hemingway in Spain. The guerrilla camp scenes are vivid."
+    },
+    {
+      "book_id": 58,
+      "customer_id": 21,
+      "rating": 3,
+      "body": "Good but not his best. The Spanish dialogue translations are awkward."
+    },
+    {
+      "book_id": 59,
+      "customer_id": 4,
+      "rating": 5,
+      "body": "Kafka captures the nightmare of bureaucracy like no one else."
+    },
+    {
+      "book_id": 59,
+      "customer_id": 12,
+      "rating": 4,
+      "body": "Absurd, unsettling, and somehow very funny."
+    },
+    {
+      "book_id": 59,
+      "customer_id": 20,
+      "rating": 3,
+      "body": "I get the allegory but it's frustrating by design."
+    },
+    {
+      "book_id": 60,
+      "customer_id": 11,
+      "rating": 5,
+      "body": "The most famous opening line in literature. Devastating."
+    },
+    {
+      "book_id": 60,
+      "customer_id": 17,
+      "rating": 4,
+      "body": "Short and devastating. Kafka's alienation has never felt so literal."
+    },
+    {
+      "book_id": 60,
+      "customer_id": 25,
+      "rating": 3,
+      "body": "Weird and sad. The family's reaction is the real horror."
+    },
+    {
+      "book_id": 61,
+      "customer_id": 2,
+      "rating": 5,
+      "body": "The book that launched cyberpunk. Still feels ahead of its time."
+    },
+    {
+      "book_id": 61,
+      "customer_id": 8,
+      "rating": 4,
+      "body": "Gibson's prose is electric. Dense but worth the effort."
+    },
+    {
+      "book_id": 61,
+      "customer_id": 16,
+      "rating": 3,
+      "body": "Cool style but I had no idea what was happening for the first 100 pages."
+    },
+    {
+      "book_id": 61,
+      "customer_id": 23,
+      "rating": 2,
+      "body": "All vibes, no substance. Style over everything."
+    },
+    {
+      "book_id": 62,
+      "customer_id": 18,
+      "rating": 3,
+      "body": "More accessible than Neuromancer but less groundbreaking."
+    },
+    {
+      "book_id": 63,
+      "customer_id": 5,
+      "rating": 5,
+      "body": "Jemisin reinvented fantasy. The second-person narration is genius."
+    },
+    {
+      "book_id": 63,
+      "customer_id": 13,
+      "rating": 5,
+      "body": "Three consecutive Hugos and every one of them deserved."
+    },
+    {
+      "book_id": 63,
+      "customer_id": 19,
+      "rating": 4,
+      "body": "Bold and original. The world-building is unlike anything else."
+    },
+    {
+      "book_id": 63,
+      "customer_id": 22,
+      "rating": 2,
+      "body": "Second person narration is exhausting. Couldn't get past chapter 3."
+    },
+    {
+      "book_id": 64,
+      "customer_id": 5,
+      "rating": 4,
+      "body": "Strong middle book. Nassun's chapters are heartbreaking."
+    },
+    {
+      "book_id": 64,
+      "customer_id": 23,
+      "rating": 3,
+      "body": "Good but suffers from middle-book syndrome."
+    },
+    {
+      "book_id": 65,
+      "customer_id": 13,
+      "rating": 5,
+      "body": "A perfect conclusion. Jemisin sticks the landing beautifully."
+    },
+    {
+      "book_id": 65,
+      "customer_id": 19,
+      "rating": 4,
+      "body": "The trilogy as a whole is a landmark achievement."
+    },
+    {
+      "book_id": 66,
+      "customer_id": 3,
+      "rating": 5,
+      "body": "Hard sci-fi that reads like a thriller. Liu is extraordinary."
+    },
+    {
+      "book_id": 66,
+      "customer_id": 14,
+      "rating": 4,
+      "body": "The physics is real and the stakes are cosmic."
+    },
+    {
+      "book_id": 66,
+      "customer_id": 20,
+      "rating": 3,
+      "body": "The Cultural Revolution sections are gripping. The VR game parts drag."
+    },
+    {
+      "book_id": 66,
+      "customer_id": 24,
+      "rating": 2,
+      "body": "Flat characters and infodumps. The science can't carry a novel alone."
+    },
+    {
+      "book_id": 67,
+      "customer_id": 3,
+      "rating": 5,
+      "body": "The Dark Forest theory is the most terrifying idea in sci-fi."
+    },
+    {
+      "book_id": 67,
+      "customer_id": 18,
+      "rating": 4,
+      "body": "Better than the first book. Luo Ji's arc is brilliant."
+    },
+    {
+      "book_id": 67,
+      "customer_id": 25,
+      "rating": 3,
+      "body": "The wallfacer concept is great but the execution meanders."
+    },
+    {
+      "book_id": 68,
+      "customer_id": 14,
+      "rating": 4,
+      "body": "Mind-blowing scope. The fairy tale section is haunting."
+    },
+    {
+      "book_id": 68,
+      "customer_id": 24,
+      "rating": 3,
+      "body": "Ambitious but the time jumps made it hard to stay invested."
+    },
+    {
+      "book_id": 69,
+      "customer_id": 9,
+      "rating": 4,
+      "body": "Gothic suspense at its finest. Rebecca haunts every page."
+    },
+    {
+      "book_id": 69,
+      "customer_id": 15,
+      "rating": 5,
+      "body": "Last night I dreamt I went to Manderley again. Perfection."
+    },
+    {
+      "book_id": 69,
+      "customer_id": 17,
+      "rating": 3,
+      "body": "The narrator's passivity got frustrating. Just stand up for yourself!"
+    },
+    {
+      "book_id": 69,
+      "customer_id": 21,
+      "rating": 4,
+      "body": "Du Maurier builds atmosphere like a master painter."
+    },
+    {
+      "book_id": 70,
+      "customer_id": 15,
+      "rating": 3,
+      "body": "Atmospheric but not as compelling as Rebecca."
+    },
+    {
+      "book_id": 70,
+      "customer_id": 23,
+      "rating": 4,
+      "body": "The ambiguity of Rachel's true nature is maddening. In a good way."
+    },
+    {
+      "book_id": 71,
+      "customer_id": 1,
+      "rating": 5,
+      "body": "Kvothe's story is addictive. I need the third book."
+    },
+    {
+      "book_id": 71,
+      "customer_id": 7,
+      "rating": 4,
+      "body": "Beautifully written fantasy. The magic system is elegant."
+    },
+    {
+      "book_id": 71,
+      "customer_id": 10,
+      "rating": 5,
+      "body": "Rothfuss crafts prose like poetry. A stunning debut."
+    },
+    {
+      "book_id": 71,
+      "customer_id": 16,
+      "rating": 2,
+      "body": "Kvothe is a Mary Sue. Good at everything, loved by everyone. Boring."
+    },
+    {
+      "book_id": 71,
+      "customer_id": 22,
+      "rating": 3,
+      "body": "Beautiful writing but the unreliable narrator angle needs a payoff."
+    },
+    {
+      "book_id": 72,
+      "customer_id": 1,
+      "rating": 3,
+      "body": "The Felurian section nearly ruined it for me. Uneven."
+    },
+    {
+      "book_id": 72,
+      "customer_id": 10,
+      "rating": 4,
+      "body": "The Adem chapters are fascinating. Still waiting for book three."
+    },
+    {
+      "book_id": 73,
+      "customer_id": 2,
+      "rating": 5,
+      "body": "Sanderson's worldbuilding is on another level. Stormlight is epic."
+    },
+    {
+      "book_id": 73,
+      "customer_id": 5,
+      "rating": 4,
+      "body": "Long but never boring. Kaladin's arc is incredible."
+    },
+    {
+      "book_id": 73,
+      "customer_id": 18,
+      "rating": 3,
+      "body": "Impressive scope but the prose is strictly functional."
+    },
+    {
+      "book_id": 73,
+      "customer_id": 22,
+      "rating": 2,
+      "body": "1000 pages of setup. Nothing happens until the last 200."
+    },
+    {
+      "book_id": 74,
+      "customer_id": 2,
+      "rating": 5,
+      "body": "Even better than Way of Kings. The climax is stunning."
+    },
+    {
+      "book_id": 74,
+      "customer_id": 18,
+      "rating": 3,
+      "body": "Shallan's chapters slow things down considerably."
+    },
+    {
+      "book_id": 75,
+      "customer_id": 4,
+      "rating": 5,
+      "body": "A heist novel set in a fantasy world. Brilliant concept."
+    },
+    {
+      "book_id": 75,
+      "customer_id": 13,
+      "rating": 5,
+      "body": "Vin is one of the best fantasy protagonists ever."
+    },
+    {
+      "book_id": 75,
+      "customer_id": 20,
+      "rating": 4,
+      "body": "Fast-paced and clever. The allomancy system is creative."
+    },
+    {
+      "book_id": 75,
+      "customer_id": 25,
+      "rating": 3,
+      "body": "Fun but the writing style is very YA for adult fantasy."
+    },
+    {
+      "book_id": 76,
+      "customer_id": 7,
+      "rating": 5,
+      "body": "Hobb writes emotional devastation like no one else. Poor Fitz."
+    },
+    {
+      "book_id": 76,
+      "customer_id": 21,
+      "rating": 4,
+      "body": "A slow-burn character study wrapped in a fantasy novel. Loved it."
+    },
+    {
+      "book_id": 76,
+      "customer_id": 17,
+      "rating": 3,
+      "body": "Fitz makes terrible decisions constantly. Hard to root for him."
+    },
+    {
+      "book_id": 77,
+      "customer_id": 7,
+      "rating": 4,
+      "body": "Hobb ramps up the emotional pain. Regal is a great villain."
+    },
+    {
+      "book_id": 77,
+      "customer_id": 24,
+      "rating": 2,
+      "body": "Fitz suffers nonstop for 600 pages. It's just misery tourism."
+    },
+    {
+      "book_id": 78,
+      "customer_id": 8,
+      "rating": 4,
+      "body": "Grimdark done right. Abercrombie writes fantastic characters."
+    },
+    {
+      "book_id": 78,
+      "customer_id": 10,
+      "rating": 4,
+      "body": "Dark, funny, and brutally subversive of fantasy tropes."
+    },
+    {
+      "book_id": 78,
+      "customer_id": 19,
+      "rating": 3,
+      "body": "Everyone is terrible and nothing matters. Is that the point?"
+    },
+    {
+      "book_id": 79,
+      "customer_id": 8,
+      "rating": 3,
+      "body": "Solid middle book but the quest storyline is a letdown."
+    },
+    {
+      "book_id": 79,
+      "customer_id": 19,
+      "rating": 4,
+      "body": "Glokta's siege chapters are some of the best in the genre."
+    },
+    {
+      "book_id": 80,
+      "customer_id": 10,
+      "rating": 5,
+      "body": "The most cynical ending in fantasy. Abercrombie is ruthless."
+    },
+    {
+      "book_id": 80,
+      "customer_id": 19,
+      "rating": 4,
+      "body": "Everything comes together perfectly. Devastating final pages."
+    },
+    {
+      "book_id": 81,
+      "customer_id": 9,
+      "rating": 5,
+      "body": "A dark academia thriller before dark academia was a thing."
+    },
+    {
+      "book_id": 81,
+      "customer_id": 12,
+      "rating": 5,
+      "body": "Tartt's prose is intoxicating. I couldn't put it down."
+    },
+    {
+      "book_id": 81,
+      "customer_id": 17,
+      "rating": 4,
+      "body": "The slow unraveling is masterfully done."
+    },
+    {
+      "book_id": 81,
+      "customer_id": 20,
+      "rating": 3,
+      "body": "These are all terrible people and the book wants me to care. I don't."
+    },
+    {
+      "book_id": 82,
+      "customer_id": 9,
+      "rating": 4,
+      "body": "Sprawling and immersive. Theo's grief feels so real."
+    },
+    {
+      "book_id": 82,
+      "customer_id": 24,
+      "rating": 2,
+      "body": "Overwritten and 300 pages too long. The Vegas section is a slog."
+    },
+    {
+      "book_id": 82,
+      "customer_id": 16,
+      "rating": 3,
+      "body": "Ambitious but bloated. Needed a ruthless editor."
+    },
+    {
+      "book_id": 83,
+      "customer_id": 3,
+      "rating": 5,
+      "body": "Sagan makes the universe feel like home. Pure wonder."
+    },
+    {
+      "book_id": 83,
+      "customer_id": 14,
+      "rating": 5,
+      "body": "Every human should read this book. Sagan at his finest."
+    },
+    {
+      "book_id": 83,
+      "customer_id": 21,
+      "rating": 4,
+      "body": "Dated in places but the sense of wonder is timeless."
+    },
+    {
+      "book_id": 84,
+      "customer_id": 3,
+      "rating": 4,
+      "body": "Sagan writes first contact with scientific rigor and heart."
+    },
+    {
+      "book_id": 84,
+      "customer_id": 25,
+      "rating": 3,
+      "body": "The science is fascinating but the novel reads like a screenplay."
+    },
+    {
+      "book_id": 85,
+      "customer_id": 1,
+      "rating": 5,
+      "body": "The battle of Helm's Deep is unforgettable on the page."
+    },
+    {
+      "book_id": 85,
+      "customer_id": 7,
+      "rating": 4,
+      "body": "The split narrative works perfectly. Gollum steals every scene."
+    },
+    {
+      "book_id": 85,
+      "customer_id": 18,
+      "rating": 3,
+      "body": "Frodo and Sam's trek starts to feel repetitive in this volume."
+    },
+    {
+      "book_id": 86,
+      "customer_id": 1,
+      "rating": 5,
+      "body": "The most satisfying ending in all of fantasy literature."
+    },
+    {
+      "book_id": 86,
+      "customer_id": 7,
+      "rating": 5,
+      "body": "The Scouring of the Shire is underrated. Perfect conclusion."
+    },
+    {
+      "book_id": 86,
+      "customer_id": 20,
+      "rating": 3,
+      "body": "Too many false endings. The actual ending is perfect though."
+    },
+    {
+      "book_id": 87,
+      "customer_id": 5,
+      "rating": 4,
+      "body": "Herbert deconstructs the hero's journey he built in Dune."
+    },
+    {
+      "book_id": 87,
+      "customer_id": 22,
+      "rating": 2,
+      "body": "A pale shadow of the original. Where's the adventure?"
+    },
+    {
+      "book_id": 88,
+      "customer_id": 5,
+      "rating": 3,
+      "body": "The Dune universe is rich but this entry feels transitional."
+    },
+    {
+      "book_id": 88,
+      "customer_id": 16,
+      "rating": 3,
+      "body": "Interesting themes about transformation but a slow read."
+    },
+    {
+      "book_id": 89,
+      "customer_id": 6,
+      "rating": 5,
+      "body": "The greatest mystery novel ever written. Perfection."
+    },
+    {
+      "book_id": 89,
+      "customer_id": 9,
+      "rating": 5,
+      "body": "Christie at the peak of her powers. Absolutely gripping."
+    },
+    {
+      "book_id": 89,
+      "customer_id": 17,
+      "rating": 4,
+      "body": "Devoured it in one sitting. The nursery rhyme is haunting."
+    },
+    {
+      "book_id": 89,
+      "customer_id": 23,
+      "rating": 3,
+      "body": "Clever but the characters are just puzzle pieces, not people."
+    },
+    {
+      "book_id": 90,
+      "customer_id": 6,
+      "rating": 5,
+      "body": "The twist! Christie broke all the rules and got away with it."
+    },
+    {
+      "book_id": 90,
+      "customer_id": 21,
+      "rating": 4,
+      "body": "Controversial ending but you have to admire the audacity."
+    },
+    {
+      "book_id": 90,
+      "customer_id": 25,
+      "rating": 2,
+      "body": "The twist feels like cheating. I felt robbed, not impressed."
+    },
+    {
+      "book_id": 91,
+      "customer_id": 8,
+      "rating": 4,
+      "body": "The Mule is one of the great sci-fi antagonists."
+    },
+    {
+      "book_id": 91,
+      "customer_id": 24,
+      "rating": 3,
+      "body": "Good sequel but the surprise factor from the first book is gone."
+    },
+    {
+      "book_id": 92,
+      "customer_id": 8,
+      "rating": 4,
+      "body": "The search for the Second Foundation is a great cat-and-mouse."
+    },
+    {
+      "book_id": 92,
+      "customer_id": 14,
+      "rating": 3,
+      "body": "Mind games upon mind games. A bit exhausting by the end."
+    },
+    {
+      "book_id": 93,
+      "customer_id": 4,
+      "rating": 4,
+      "body": "The Three Laws of Robotics are still the gold standard."
+    },
+    {
+      "book_id": 93,
+      "customer_id": 11,
+      "rating": 5,
+      "body": "Each story is a perfect logic puzzle. Asimov was a master."
+    },
+    {
+      "book_id": 93,
+      "customer_id": 19,
+      "rating": 3,
+      "body": "Clever but formulaic. Each story follows the same template."
+    },
+    {
+      "book_id": 94,
+      "customer_id": 5,
+      "rating": 5,
+      "body": "Le Guin's Earthsea is just as important as Middle-earth."
+    },
+    {
+      "book_id": 94,
+      "customer_id": 12,
+      "rating": 4,
+      "body": "A coming-of-age story with real depth. Beautiful world."
+    },
+    {
+      "book_id": 94,
+      "customer_id": 17,
+      "rating": 3,
+      "body": "Short and simple. Good for younger readers but felt slight to me."
+    },
+    {
+      "book_id": 95,
+      "customer_id": 5,
+      "rating": 5,
+      "body": "Le Guin at her political best. A true ambiguous utopia."
+    },
+    {
+      "book_id": 95,
+      "customer_id": 22,
+      "rating": 3,
+      "body": "More interested in political theory than telling a story."
+    },
+    {
+      "book_id": 96,
+      "customer_id": 7,
+      "rating": 4,
+      "body": "Gaiman writes children's horror better than anyone alive."
+    },
+    {
+      "book_id": 96,
+      "customer_id": 15,
+      "rating": 5,
+      "body": "Genuinely creepy. The Other Mother still gives me nightmares."
+    },
+    {
+      "book_id": 96,
+      "customer_id": 20,
+      "rating": 3,
+      "body": "Good for kids but too short and simple for an adult reader."
+    },
+    {
+      "book_id": 97,
+      "customer_id": 7,
+      "rating": 5,
+      "body": "London Below is one of Gaiman's best creations."
+    },
+    {
+      "book_id": 97,
+      "customer_id": 16,
+      "rating": 3,
+      "body": "Fun urban fantasy but felt rushed compared to American Gods."
+    },
+    {
+      "book_id": 98,
+      "customer_id": 1,
+      "rating": 4,
+      "body": "Gaiman's most personal novel. Small in scope but immense in feeling."
+    },
+    {
+      "book_id": 98,
+      "customer_id": 25,
+      "rating": 3,
+      "body": "Lovely but insubstantial. More of a novella than a novel."
+    },
+    {
+      "book_id": 99,
+      "customer_id": 1,
+      "rating": 5,
+      "body": "Death as a character is Pratchett's greatest invention."
+    },
+    {
+      "book_id": 99,
+      "customer_id": 4,
+      "rating": 4,
+      "body": "Funny, philosophical, and weirdly touching. Classic Discworld."
+    },
+    {
+      "book_id": 99,
+      "customer_id": 18,
+      "rating": 3,
+      "body": "Fun but the humor overshadows any real emotional stakes."
+    },
+    {
+      "book_id": 100,
+      "customer_id": 2,
+      "rating": 5,
+      "body": "Vimes is the best character in fantasy. Period."
+    },
+    {
+      "book_id": 100,
+      "customer_id": 13,
+      "rating": 5,
+      "body": "Pratchett's Night Watch books are criminally underrated."
+    },
+    {
+      "book_id": 100,
+      "customer_id": 21,
+      "rating": 4,
+      "body": "Pratchett at his most satirical. The dragon reveal is genius."
+    },
+    {
+      "book_id": 100,
+      "customer_id": 22,
+      "rating": 2,
+      "body": "I don't get the Discworld hype. The humor is too British for me."
+    },
+    {
+      "book_id": 101,
+      "customer_id": 4,
+      "rating": 5,
+      "body": "Pratchett's sharpest satire of religion. Brutha is wonderful."
+    },
+    {
+      "book_id": 101,
+      "customer_id": 12,
+      "rating": 4,
+      "body": "Standalone Discworld at its best. The tortoise scenes are gold."
+    },
+    {
+      "book_id": 101,
+      "customer_id": 25,
+      "rating": 3,
+      "body": "The philosophy is interesting but the jokes slow the pace."
+    },
+    {
+      "book_id": 102,
+      "customer_id": 2,
+      "rating": 5,
+      "body": "Moist von Lipwig is one of Pratchett's best creations."
+    },
+    {
+      "book_id": 102,
+      "customer_id": 21,
+      "rating": 4,
+      "body": "A con artist running the post office. Only Pratchett."
+    },
+    {
+      "book_id": 103,
+      "customer_id": 3,
+      "rating": 5,
+      "body": "Where it all began. Bilbo's adventure is pure magic."
+    },
+    {
+      "book_id": 103,
+      "customer_id": 10,
+      "rating": 5,
+      "body": "A perfect adventure story for all ages."
+    },
+    {
+      "book_id": 103,
+      "customer_id": 15,
+      "rating": 4,
+      "body": "Charming and cozy. Tolkien at his most accessible."
+    },
+    {
+      "book_id": 103,
+      "customer_id": 19,
+      "rating": 3,
+      "body": "A children's book. Fine for what it is but nothing groundbreaking."
+    },
+    {
+      "book_id": 104,
+      "customer_id": 8,
+      "rating": 5,
+      "body": "King's scariest novel. Sometimes dead is better."
+    },
+    {
+      "book_id": 104,
+      "customer_id": 14,
+      "rating": 4,
+      "body": "Dread builds slowly and never lets up."
+    },
+    {
+      "book_id": 104,
+      "customer_id": 23,
+      "rating": 3,
+      "body": "Effective but King telegraphs every scare well in advance."
+    },
+    {
+      "book_id": 105,
+      "customer_id": 2,
+      "rating": 4,
+      "body": "King's take on vampires is genuinely frightening."
+    },
+    {
+      "book_id": 105,
+      "customer_id": 17,
+      "rating": 3,
+      "body": "Slow start but the last third is relentless."
+    },
+    {
+      "book_id": 106,
+      "customer_id": 11,
+      "rating": 4,
+      "body": "Asimov's robot detective series is underappreciated."
+    },
+    {
+      "book_id": 106,
+      "customer_id": 24,
+      "rating": 3,
+      "body": "Good mystery but the future society feels unconvincing."
+    },
+    {
+      "book_id": 107,
+      "customer_id": 11,
+      "rating": 3,
+      "body": "Interesting social concepts but even slower than Caves of Steel."
+    },
+    {
+      "book_id": 107,
+      "customer_id": 14,
+      "rating": 4,
+      "body": "The agoraphobia angle makes Solaria a fascinating detective setting."
+    },
+    {
+      "book_id": 108,
+      "customer_id": 9,
+      "rating": 5,
+      "body": "Austen's most mature work. Captain Wentworth's letter is perfection."
+    },
+    {
+      "book_id": 108,
+      "customer_id": 16,
+      "rating": 4,
+      "body": "The most emotionally rich Austen novel. Anne deserves the world."
+    },
+    {
+      "book_id": 108,
+      "customer_id": 20,
+      "rating": 2,
+      "body": "Everyone is so polite about their misery. Just talk to each other!"
+    },
+    {
+      "book_id": 109,
+      "customer_id": 9,
+      "rating": 3,
+      "body": "The quietest Austen. Fanny is hard to root for compared to Lizzy."
+    },
+    {
+      "book_id": 109,
+      "customer_id": 23,
+      "rating": 3,
+      "body": "Well-crafted but Fanny Price is the least interesting Austen heroine."
+    },
+    {
+      "book_id": 110,
+      "customer_id": 4,
+      "rating": 4,
+      "body": "PKD's most disturbing novel. Reality itself decays."
+    },
+    {
+      "book_id": 110,
+      "customer_id": 18,
+      "rating": 5,
+      "body": "The best Philip K. Dick novel. Nothing else captures his paranoia so well."
+    },
+    {
+      "book_id": 111,
+      "customer_id": 4,
+      "rating": 3,
+      "body": "Fascinating but nearly impenetrable. PKD at his most unhinged."
+    },
+    {
+      "book_id": 111,
+      "customer_id": 22,
+      "rating": 1,
+      "body": "Incoherent ramblings dressed up as science fiction. Unreadable."
+    },
+    {
+      "book_id": 112,
+      "customer_id": 6,
+      "rating": 4,
+      "body": "Bradbury's imagination in short form. Every story is a gem."
+    },
+    {
+      "book_id": 112,
+      "customer_id": 12,
+      "rating": 5,
+      "body": "The Veldt alone makes this collection essential."
+    },
+    {
+      "book_id": 112,
+      "customer_id": 23,
+      "rating": 3,
+      "body": "Some stories are brilliant, others are forgettable."
+    },
+    {
+      "book_id": 113,
+      "customer_id": 7,
+      "rating": 4,
+      "body": "Myshkin is one of the most fascinating characters in literature."
+    },
+    {
+      "book_id": 113,
+      "customer_id": 18,
+      "rating": 3,
+      "body": "Dostoevsky's most frustrating novel. Everyone behaves irrationally."
+    },
+    {
+      "book_id": 114,
+      "customer_id": 13,
+      "rating": 4,
+      "body": "Morrison packs an entire world into 174 pages."
+    },
+    {
+      "book_id": 114,
+      "customer_id": 21,
+      "rating": 5,
+      "body": "An underappreciated Morrison novel. The friendship is so real."
+    },
+    {
+      "book_id": 115,
+      "customer_id": 11,
+      "rating": 3,
+      "body": "Interesting to see where Murakami started, but very rough."
+    },
+    {
+      "book_id": 115,
+      "customer_id": 25,
+      "rating": 2,
+      "body": "Early Murakami. Not much happens. Very slight."
+    },
+    {
+      "book_id": 116,
+      "customer_id": 5,
+      "rating": 4,
+      "body": "Butler's most challenging work. The Oankali are fascinating."
+    },
+    {
+      "book_id": 116,
+      "customer_id": 21,
+      "rating": 4,
+      "body": "Deeply uncomfortable in all the right ways. Consent is the theme."
+    },
+    {
+      "book_id": 117,
+      "customer_id": 12,
+      "rating": 3,
+      "body": "The weakest Hitchhiker's book. The love story feels off."
+    },
+    {
+      "book_id": 117,
+      "customer_id": 24,
+      "rating": 2,
+      "body": "Adams clearly ran out of steam. A disappointing sequel."
+    },
+    {
+      "book_id": 118,
+      "customer_id": 16,
+      "rating": 3,
+      "body": "A fitting end to the Sprawl trilogy but the least memorable entry."
+    },
+    {
+      "book_id": 119,
+      "customer_id": 9,
+      "rating": 5,
+      "body": "A love letter to books and Barcelona. Atmospheric and gripping."
+    },
+    {
+      "book_id": 119,
+      "customer_id": 13,
+      "rating": 4,
+      "body": "Gothic, romantic, and mysterious. A page-turner."
+    },
+    {
+      "book_id": 119,
+      "customer_id": 17,
+      "rating": 3,
+      "body": "Enjoyable but the plot twists are fairly predictable."
+    },
+    {
+      "book_id": 120,
+      "customer_id": 10,
+      "rating": 4,
+      "body": "Hobb's reincarnation concept is unlike anything else in fantasy."
+    },
+    {
+      "book_id": 120,
+      "customer_id": 15,
+      "rating": 4,
+      "body": "Celtic-inspired fantasy with real emotional depth."
+    },
+    {
+      "book_id": 120,
+      "customer_id": 25,
+      "rating": 3,
+      "body": "The multi-timeline structure is more confusing than illuminating."
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customer_id": 1,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 1,
+          "quantity": 1
+        },
+        {
+          "book_id": 2,
+          "quantity": 1
+        },
+        {
+          "book_id": 34,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "customer_id": 1,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 53,
+          "quantity": 1
+        },
+        {
+          "book_id": 71,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "customer_id": 1,
+      "status": "shipped",
+      "items": [
+        {
+          "book_id": 85,
+          "quantity": 1
+        },
+        {
+          "book_id": 86,
+          "quantity": 1
+        },
+        {
+          "book_id": 98,
+          "quantity": 1
+        },
+        {
+          "book_id": 99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "customer_id": 2,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 6,
+          "quantity": 2
+        },
+        {
+          "book_id": 43,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "customer_id": 2,
+      "status": "shipped",
+      "items": [
+        {
+          "book_id": 61,
+          "quantity": 1
+        },
+        {
+          "book_id": 73,
+          "quantity": 1
+        },
+        {
+          "book_id": 74,
+          "quantity": 1
+        },
+        {
+          "book_id": 100,
+          "quantity": 1
+        },
+        {
+          "book_id": 102,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "customer_id": 2,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 17,
+          "quantity": 1
+        },
+        {
+          "book_id": 105,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "customer_id": 3,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 4,
+          "quantity": 1
+        },
+        {
+          "book_id": 21,
+          "quantity": 1
+        },
+        {
+          "book_id": 66,
+          "quantity": 1
+        },
+        {
+          "book_id": 67,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "customer_id": 3,
+      "status": "pending",
+      "items": [
+        {
+          "book_id": 48,
+          "quantity": 1
+        },
+        {
+          "book_id": 56,
+          "quantity": 1
+        },
+        {
+          "book_id": 83,
+          "quantity": 1
+        },
+        {
+          "book_id": 84,
+          "quantity": 1
+        },
+        {
+          "book_id": 103,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "customer_id": 4,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 9,
+          "quantity": 1
+        },
+        {
+          "book_id": 14,
+          "quantity": 1
+        },
+        {
+          "book_id": 26,
+          "quantity": 1
+        },
+        {
+          "book_id": 32,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "customer_id": 4,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 59,
+          "quantity": 1
+        },
+        {
+          "book_id": 75,
+          "quantity": 1
+        },
+        {
+          "book_id": 93,
+          "quantity": 1
+        },
+        {
+          "book_id": 99,
+          "quantity": 1
+        },
+        {
+          "book_id": 101,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "customer_id": 4,
+      "status": "shipped",
+      "items": [
+        {
+          "book_id": 43,
+          "quantity": 1
+        },
+        {
+          "book_id": 110,
+          "quantity": 1
+        },
+        {
+          "book_id": 111,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "customer_id": 5,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 1,
+          "quantity": 1
+        },
+        {
+          "book_id": 5,
+          "quantity": 1
+        },
+        {
+          "book_id": 11,
+          "quantity": 1
+        },
+        {
+          "book_id": 41,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "customer_id": 5,
+      "status": "shipped",
+      "items": [
+        {
+          "book_id": 24,
+          "quantity": 1
+        },
+        {
+          "book_id": 63,
+          "quantity": 1
+        },
+        {
+          "book_id": 64,
+          "quantity": 1
+        },
+        {
+          "book_id": 87,
+          "quantity": 1
+        },
+        {
+          "book_id": 88,
+          "quantity": 1
+        },
+        {
+          "book_id": 94,
+          "quantity": 1
+        },
+        {
+          "book_id": 95,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "customer_id": 6,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 3,
+          "quantity": 1
+        },
+        {
+          "book_id": 10,
+          "quantity": 1
+        },
+        {
+          "book_id": 34,
+          "quantity": 1
+        },
+        {
+          "book_id": 45,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "customer_id": 6,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 29,
+          "quantity": 1
+        },
+        {
+          "book_id": 47,
+          "quantity": 1
+        },
+        {
+          "book_id": 53,
+          "quantity": 1
+        },
+        {
+          "book_id": 58,
+          "quantity": 1
+        },
+        {
+          "book_id": 89,
+          "quantity": 1
+        },
+        {
+          "book_id": 90,
+          "quantity": 1
+        },
+        {
+          "book_id": 112,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "customer_id": 7,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 2,
+          "quantity": 1
+        },
+        {
+          "book_id": 8,
+          "quantity": 1
+        },
+        {
+          "book_id": 31,
+          "quantity": 1
+        },
+        {
+          "book_id": 52,
+          "quantity": 1
+        },
+        {
+          "book_id": 55,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "customer_id": 7,
+      "status": "pending",
+      "items": [
+        {
+          "book_id": 39,
+          "quantity": 1
+        },
+        {
+          "book_id": 71,
+          "quantity": 1
+        },
+        {
+          "book_id": 76,
+          "quantity": 1
+        },
+        {
+          "book_id": 77,
+          "quantity": 1
+        },
+        {
+          "book_id": 85,
+          "quantity": 1
+        },
+        {
+          "book_id": 96,
+          "quantity": 1
+        },
+        {
+          "book_id": 97,
+          "quantity": 1
+        },
+        {
+          "book_id": 113,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "customer_id": 8,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 4,
+          "quantity": 1
+        },
+        {
+          "book_id": 9,
+          "quantity": 1
+        },
+        {
+          "book_id": 22,
+          "quantity": 1
+        },
+        {
+          "book_id": 28,
+          "quantity": 1
+        },
+        {
+          "book_id": 46,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "customer_id": 8,
+      "status": "shipped",
+      "items": [
+        {
+          "book_id": 18,
+          "quantity": 1
+        },
+        {
+          "book_id": 48,
+          "quantity": 1
+        },
+        {
+          "book_id": 61,
+          "quantity": 1
+        },
+        {
+          "book_id": 78,
+          "quantity": 1
+        },
+        {
+          "book_id": 79,
+          "quantity": 1
+        },
+        {
+          "book_id": 91,
+          "quantity": 1
+        },
+        {
+          "book_id": 92,
+          "quantity": 1
+        },
+        {
+          "book_id": 104,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "customer_id": 9,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 3,
+          "quantity": 1
+        },
+        {
+          "book_id": 11,
+          "quantity": 1
+        },
+        {
+          "book_id": 13,
+          "quantity": 1
+        },
+        {
+          "book_id": 24,
+          "quantity": 1
+        },
+        {
+          "book_id": 45,
+          "quantity": 1
+        },
+        {
+          "book_id": 108,
+          "quantity": 1
+        },
+        {
+          "book_id": 109,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "customer_id": 9,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 34,
+          "quantity": 1
+        },
+        {
+          "book_id": 35,
+          "quantity": 1
+        },
+        {
+          "book_id": 69,
+          "quantity": 1
+        },
+        {
+          "book_id": 81,
+          "quantity": 1
+        },
+        {
+          "book_id": 82,
+          "quantity": 1
+        },
+        {
+          "book_id": 89,
+          "quantity": 1
+        },
+        {
+          "book_id": 119,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "customer_id": 10,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 2,
+          "quantity": 1
+        },
+        {
+          "book_id": 7,
+          "quantity": 1
+        },
+        {
+          "book_id": 16,
+          "quantity": 1
+        },
+        {
+          "book_id": 36,
+          "quantity": 1
+        },
+        {
+          "book_id": 50,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "customer_id": 10,
+      "status": "pending",
+      "items": [
+        {
+          "book_id": 19,
+          "quantity": 1
+        },
+        {
+          "book_id": 49,
+          "quantity": 1
+        },
+        {
+          "book_id": 71,
+          "quantity": 1
+        },
+        {
+          "book_id": 78,
+          "quantity": 1
+        },
+        {
+          "book_id": 80,
+          "quantity": 1
+        },
+        {
+          "book_id": 103,
+          "quantity": 1
+        },
+        {
+          "book_id": 120,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "customer_id": 11,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 1,
+          "quantity": 1
+        },
+        {
+          "book_id": 14,
+          "quantity": 1
+        },
+        {
+          "book_id": 31,
+          "quantity": 1
+        },
+        {
+          "book_id": 38,
+          "quantity": 1
+        },
+        {
+          "book_id": 40,
+          "quantity": 1
+        },
+        {
+          "book_id": 60,
+          "quantity": 1
+        },
+        {
+          "book_id": 115,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "customer_id": 11,
+      "status": "shipped",
+      "items": [
+        {
+          "book_id": 93,
+          "quantity": 1
+        },
+        {
+          "book_id": 106,
+          "quantity": 1
+        },
+        {
+          "book_id": 107,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "customer_id": 12,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 5,
+          "quantity": 1
+        },
+        {
+          "book_id": 10,
+          "quantity": 1
+        },
+        {
+          "book_id": 26,
+          "quantity": 1
+        },
+        {
+          "book_id": 33,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "customer_id": 12,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 43,
+          "quantity": 1
+        },
+        {
+          "book_id": 44,
+          "quantity": 1
+        },
+        {
+          "book_id": 59,
+          "quantity": 1
+        },
+        {
+          "book_id": 81,
+          "quantity": 1
+        },
+        {
+          "book_id": 94,
+          "quantity": 1
+        },
+        {
+          "book_id": 101,
+          "quantity": 1
+        },
+        {
+          "book_id": 112,
+          "quantity": 1
+        },
+        {
+          "book_id": 117,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "customer_id": 13,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 6,
+          "quantity": 1
+        },
+        {
+          "book_id": 11,
+          "quantity": 1
+        },
+        {
+          "book_id": 24,
+          "quantity": 1
+        },
+        {
+          "book_id": 42,
+          "quantity": 1
+        },
+        {
+          "book_id": 63,
+          "quantity": 1
+        },
+        {
+          "book_id": 65,
+          "quantity": 1
+        },
+        {
+          "book_id": 114,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "customer_id": 13,
+      "status": "shipped",
+      "items": [
+        {
+          "book_id": 75,
+          "quantity": 1
+        },
+        {
+          "book_id": 100,
+          "quantity": 1
+        },
+        {
+          "book_id": 119,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "customer_id": 14,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 1,
+          "quantity": 1
+        },
+        {
+          "book_id": 4,
+          "quantity": 1
+        },
+        {
+          "book_id": 18,
+          "quantity": 1
+        },
+        {
+          "book_id": 21,
+          "quantity": 1
+        },
+        {
+          "book_id": 50,
+          "quantity": 1
+        },
+        {
+          "book_id": 57,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "customer_id": 14,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 66,
+          "quantity": 1
+        },
+        {
+          "book_id": 68,
+          "quantity": 1
+        },
+        {
+          "book_id": 83,
+          "quantity": 1
+        },
+        {
+          "book_id": 92,
+          "quantity": 1
+        },
+        {
+          "book_id": 104,
+          "quantity": 1
+        },
+        {
+          "book_id": 107,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "customer_id": 15,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 9,
+          "quantity": 1
+        },
+        {
+          "book_id": 17,
+          "quantity": 1
+        },
+        {
+          "book_id": 28,
+          "quantity": 1
+        },
+        {
+          "book_id": 38,
+          "quantity": 1
+        },
+        {
+          "book_id": 69,
+          "quantity": 1
+        },
+        {
+          "book_id": 70,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "customer_id": 15,
+      "status": "pending",
+      "items": [
+        {
+          "book_id": 56,
+          "quantity": 1
+        },
+        {
+          "book_id": 96,
+          "quantity": 1
+        },
+        {
+          "book_id": 103,
+          "quantity": 1
+        },
+        {
+          "book_id": 120,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "customer_id": 16,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 1,
+          "quantity": 1
+        },
+        {
+          "book_id": 7,
+          "quantity": 1
+        },
+        {
+          "book_id": 12,
+          "quantity": 1
+        },
+        {
+          "book_id": 31,
+          "quantity": 1
+        },
+        {
+          "book_id": 35,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "customer_id": 16,
+      "status": "shipped",
+      "items": [
+        {
+          "book_id": 41,
+          "quantity": 1
+        },
+        {
+          "book_id": 48,
+          "quantity": 1
+        },
+        {
+          "book_id": 54,
+          "quantity": 1
+        },
+        {
+          "book_id": 61,
+          "quantity": 1
+        },
+        {
+          "book_id": 82,
+          "quantity": 1
+        },
+        {
+          "book_id": 88,
+          "quantity": 1
+        },
+        {
+          "book_id": 97,
+          "quantity": 1
+        },
+        {
+          "book_id": 108,
+          "quantity": 1
+        },
+        {
+          "book_id": 118,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "customer_id": 16,
+      "status": "pending",
+      "items": [
+        {
+          "book_id": 19,
+          "quantity": 1
+        },
+        {
+          "book_id": 25,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "customer_id": 17,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 3,
+          "quantity": 1
+        },
+        {
+          "book_id": 9,
+          "quantity": 1
+        },
+        {
+          "book_id": 15,
+          "quantity": 1
+        },
+        {
+          "book_id": 20,
+          "quantity": 1
+        },
+        {
+          "book_id": 26,
+          "quantity": 1
+        },
+        {
+          "book_id": 30,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "customer_id": 17,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 46,
+          "quantity": 1
+        },
+        {
+          "book_id": 49,
+          "quantity": 1
+        },
+        {
+          "book_id": 51,
+          "quantity": 1
+        },
+        {
+          "book_id": 60,
+          "quantity": 1
+        },
+        {
+          "book_id": 69,
+          "quantity": 1
+        },
+        {
+          "book_id": 76,
+          "quantity": 1
+        },
+        {
+          "book_id": 81,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "customer_id": 17,
+      "status": "shipped",
+      "items": [
+        {
+          "book_id": 89,
+          "quantity": 1
+        },
+        {
+          "book_id": 94,
+          "quantity": 1
+        },
+        {
+          "book_id": 105,
+          "quantity": 1
+        },
+        {
+          "book_id": 119,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "customer_id": 18,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 2,
+          "quantity": 1
+        },
+        {
+          "book_id": 10,
+          "quantity": 1
+        },
+        {
+          "book_id": 14,
+          "quantity": 1
+        },
+        {
+          "book_id": 23,
+          "quantity": 1
+        },
+        {
+          "book_id": 27,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "customer_id": 18,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 32,
+          "quantity": 1
+        },
+        {
+          "book_id": 38,
+          "quantity": 1
+        },
+        {
+          "book_id": 50,
+          "quantity": 1
+        },
+        {
+          "book_id": 52,
+          "quantity": 1
+        },
+        {
+          "book_id": 56,
+          "quantity": 1
+        },
+        {
+          "book_id": 62,
+          "quantity": 1
+        },
+        {
+          "book_id": 67,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "customer_id": 18,
+      "status": "shipped",
+      "items": [
+        {
+          "book_id": 85,
+          "quantity": 1
+        },
+        {
+          "book_id": 99,
+          "quantity": 1
+        },
+        {
+          "book_id": 110,
+          "quantity": 1
+        },
+        {
+          "book_id": 113,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "customer_id": 19,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 4,
+          "quantity": 1
+        },
+        {
+          "book_id": 8,
+          "quantity": 1
+        },
+        {
+          "book_id": 13,
+          "quantity": 1
+        },
+        {
+          "book_id": 21,
+          "quantity": 1
+        },
+        {
+          "book_id": 28,
+          "quantity": 1
+        },
+        {
+          "book_id": 34,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "customer_id": 19,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 49,
+          "quantity": 1
+        },
+        {
+          "book_id": 54,
+          "quantity": 1
+        },
+        {
+          "book_id": 63,
+          "quantity": 1
+        },
+        {
+          "book_id": 65,
+          "quantity": 1
+        },
+        {
+          "book_id": 78,
+          "quantity": 1
+        },
+        {
+          "book_id": 93,
+          "quantity": 1
+        },
+        {
+          "book_id": 103,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "customer_id": 20,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 2,
+          "quantity": 1
+        },
+        {
+          "book_id": 5,
+          "quantity": 1
+        },
+        {
+          "book_id": 11,
+          "quantity": 1
+        },
+        {
+          "book_id": 18,
+          "quantity": 1
+        },
+        {
+          "book_id": 24,
+          "quantity": 1
+        },
+        {
+          "book_id": 33,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "customer_id": 20,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 39,
+          "quantity": 1
+        },
+        {
+          "book_id": 45,
+          "quantity": 1
+        },
+        {
+          "book_id": 52,
+          "quantity": 1
+        },
+        {
+          "book_id": 56,
+          "quantity": 1
+        },
+        {
+          "book_id": 59,
+          "quantity": 1
+        },
+        {
+          "book_id": 75,
+          "quantity": 1
+        },
+        {
+          "book_id": 81,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "customer_id": 20,
+      "status": "shipped",
+      "items": [
+        {
+          "book_id": 86,
+          "quantity": 1
+        },
+        {
+          "book_id": 96,
+          "quantity": 1
+        },
+        {
+          "book_id": 108,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "customer_id": 21,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 6,
+          "quantity": 1
+        },
+        {
+          "book_id": 17,
+          "quantity": 1
+        },
+        {
+          "book_id": 25,
+          "quantity": 1
+        },
+        {
+          "book_id": 29,
+          "quantity": 1
+        },
+        {
+          "book_id": 35,
+          "quantity": 1
+        },
+        {
+          "book_id": 37,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "customer_id": 21,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 41,
+          "quantity": 1
+        },
+        {
+          "book_id": 53,
+          "quantity": 1
+        },
+        {
+          "book_id": 58,
+          "quantity": 1
+        },
+        {
+          "book_id": 69,
+          "quantity": 1
+        },
+        {
+          "book_id": 76,
+          "quantity": 1
+        },
+        {
+          "book_id": 83,
+          "quantity": 1
+        },
+        {
+          "book_id": 90,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "customer_id": 21,
+      "status": "pending",
+      "items": [
+        {
+          "book_id": 100,
+          "quantity": 1
+        },
+        {
+          "book_id": 102,
+          "quantity": 1
+        },
+        {
+          "book_id": 114,
+          "quantity": 1
+        },
+        {
+          "book_id": 116,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "customer_id": 22,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 1,
+          "quantity": 1
+        },
+        {
+          "book_id": 2,
+          "quantity": 1
+        },
+        {
+          "book_id": 8,
+          "quantity": 1
+        },
+        {
+          "book_id": 15,
+          "quantity": 1
+        },
+        {
+          "book_id": 19,
+          "quantity": 1
+        },
+        {
+          "book_id": 26,
+          "quantity": 1
+        },
+        {
+          "book_id": 31,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "customer_id": 22,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 36,
+          "quantity": 1
+        },
+        {
+          "book_id": 43,
+          "quantity": 1
+        },
+        {
+          "book_id": 46,
+          "quantity": 1
+        },
+        {
+          "book_id": 48,
+          "quantity": 1
+        },
+        {
+          "book_id": 54,
+          "quantity": 1
+        },
+        {
+          "book_id": 63,
+          "quantity": 1
+        },
+        {
+          "book_id": 71,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "customer_id": 22,
+      "status": "cancelled",
+      "items": [
+        {
+          "book_id": 73,
+          "quantity": 1
+        },
+        {
+          "book_id": 87,
+          "quantity": 1
+        },
+        {
+          "book_id": 95,
+          "quantity": 1
+        },
+        {
+          "book_id": 100,
+          "quantity": 1
+        },
+        {
+          "book_id": 111,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "customer_id": 23,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 3,
+          "quantity": 1
+        },
+        {
+          "book_id": 9,
+          "quantity": 1
+        },
+        {
+          "book_id": 16,
+          "quantity": 1
+        },
+        {
+          "book_id": 24,
+          "quantity": 1
+        },
+        {
+          "book_id": 30,
+          "quantity": 1
+        },
+        {
+          "book_id": 38,
+          "quantity": 1
+        },
+        {
+          "book_id": 42,
+          "quantity": 1
+        },
+        {
+          "book_id": 47,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "customer_id": 23,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 55,
+          "quantity": 1
+        },
+        {
+          "book_id": 61,
+          "quantity": 1
+        },
+        {
+          "book_id": 64,
+          "quantity": 1
+        },
+        {
+          "book_id": 68,
+          "quantity": 1
+        },
+        {
+          "book_id": 70,
+          "quantity": 1
+        },
+        {
+          "book_id": 89,
+          "quantity": 1
+        },
+        {
+          "book_id": 104,
+          "quantity": 1
+        },
+        {
+          "book_id": 109,
+          "quantity": 1
+        },
+        {
+          "book_id": 112,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "customer_id": 24,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 4,
+          "quantity": 1
+        },
+        {
+          "book_id": 7,
+          "quantity": 1
+        },
+        {
+          "book_id": 11,
+          "quantity": 1
+        },
+        {
+          "book_id": 27,
+          "quantity": 1
+        },
+        {
+          "book_id": 34,
+          "quantity": 1
+        },
+        {
+          "book_id": 44,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "customer_id": 24,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 48,
+          "quantity": 1
+        },
+        {
+          "book_id": 51,
+          "quantity": 1
+        },
+        {
+          "book_id": 57,
+          "quantity": 1
+        },
+        {
+          "book_id": 66,
+          "quantity": 1
+        },
+        {
+          "book_id": 68,
+          "quantity": 1
+        },
+        {
+          "book_id": 77,
+          "quantity": 1
+        },
+        {
+          "book_id": 82,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "customer_id": 24,
+      "status": "shipped",
+      "items": [
+        {
+          "book_id": 91,
+          "quantity": 1
+        },
+        {
+          "book_id": 106,
+          "quantity": 1
+        },
+        {
+          "book_id": 117,
+          "quantity": 1
+        },
+        {
+          "book_id": 120,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "customer_id": 25,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 6,
+          "quantity": 1
+        },
+        {
+          "book_id": 14,
+          "quantity": 1
+        },
+        {
+          "book_id": 18,
+          "quantity": 1
+        },
+        {
+          "book_id": 22,
+          "quantity": 1
+        },
+        {
+          "book_id": 25,
+          "quantity": 1
+        },
+        {
+          "book_id": 28,
+          "quantity": 1
+        },
+        {
+          "book_id": 32,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "customer_id": 25,
+      "status": "delivered",
+      "items": [
+        {
+          "book_id": 37,
+          "quantity": 1
+        },
+        {
+          "book_id": 40,
+          "quantity": 1
+        },
+        {
+          "book_id": 45,
+          "quantity": 1
+        },
+        {
+          "book_id": 50,
+          "quantity": 1
+        },
+        {
+          "book_id": 53,
+          "quantity": 1
+        },
+        {
+          "book_id": 60,
+          "quantity": 1
+        },
+        {
+          "book_id": 67,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "customer_id": 25,
+      "status": "pending",
+      "items": [
+        {
+          "book_id": 75,
+          "quantity": 1
+        },
+        {
+          "book_id": 84,
+          "quantity": 1
+        },
+        {
+          "book_id": 90,
+          "quantity": 1
+        },
+        {
+          "book_id": 98,
+          "quantity": 1
+        },
+        {
+          "book_id": 101,
+          "quantity": 1
+        },
+        {
+          "book_id": 115,
+          "quantity": 1
+        },
+        {
+          "book_id": 120,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
