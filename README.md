@@ -3,12 +3,12 @@
 Four databases, one domain. Each database stores the same bookstore data in the
 way that plays to its strengths.
 
-| Service | Database | Type | Port |
-|---------|----------|------|------|
-| `relational` | PostgreSQL 18.2 | Relational (SQL) | 5432 |
-| `document` | CouchDB 3.5.1 | Document | 5984 |
-| `kvstore` | Memcached 1.6.40 | Key-Value Cache | 11211 |
-| `fulltext` | Typesense 30.1 | Full-Text Search | 8108 |
+| Service | Database | Type | Port | Documentation |
+|---------|----------|------|------|---------------|
+| `relational` | PostgreSQL 18.2 | Relational (SQL) | 5432 | [Docs](https://www.postgresql.org/docs/18/index.html) |
+| `document` | CouchDB 3.5.1 | Document | 5984 | [Docs](https://docs.couchdb.org/en/stable/) |
+| `kvstore` | Memcached 1.6.40 | Key-Value Cache | 11211 | [Docs](https://github.com/memcached/memcached/wiki) |
+| `fulltext` | Typesense 30.1 | Full-Text Search | 8108 | [Docs](https://typesense.org/docs/) |
 
 ## The Data
 
@@ -21,7 +21,7 @@ All databases are loaded with the same **online bookstore** domain data:
 - **355 reviews** with a realistic rating distribution (not all five-star — includes
   a healthy mix of 1-3 star reviews)
 - **61 orders** containing **336 line items** with mixed statuses (delivered,
-  shipped, pending, cancelled)
+  shipped, pending, canceled)
 
 The canonical data lives in `data/books.json` and `data/customers.json`. The
 individual seed files were generated from these sources.
